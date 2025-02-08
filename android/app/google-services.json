@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272311500502",
+    "project_id": "kconnect-4085a",
+    "storage_bucket": "kconnect-4085a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272311500502:android:993dd08106bf768eda1377",
+        "android_client_info": {
+          "package_name": "com.avinya.kconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGV-MtOLk4BD4SCKzgb4ALckSScz5LNsQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

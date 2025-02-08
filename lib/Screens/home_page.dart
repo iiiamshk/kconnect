@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kconnect/Widgets/home_cards.dart';
 import 'package:kconnect/Widgets/kapp_bar.dart';
+import 'package:kconnect/Widgets/notice_card.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -66,8 +66,10 @@ class HomePage extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Center(
-              child: HomeCards(),
+            Column(
+              children: [
+                NoticeCard(),
+              ],
             ),
           ],
         ),

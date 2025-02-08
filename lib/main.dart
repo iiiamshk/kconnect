@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:kconnect/Providers/auth_provider.dart';
 // import 'package:sconnect/Screens/home_page.dart';
 import 'package:kconnect/Screens/login_page.dart';
+import 'package:kconnect/Screens/main_page.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue, // WhatsApp dark theme background
       ),
-      home: LoginPage(),
+      home: MainPage(),
     );
   }
 }
